@@ -1,0 +1,22 @@
+Ger! Te dejo esta guía para hacer el setup de lo que necesitamos, pero primero, te doy un poco de contexto: 
+
+- Cree lo que se llaman "test" más adelante te voy a explicar como hacerlos, pero por ahora solo
+  basta con que los usemos y entendamos que son:
+
+   -Los test nos sirven para verificar si nuestro código funciona de la manera que esperamos, por ejemplo, 
+    en el primer ejercicio tenemos que devolver los números mayores a 5, lo que hacemos con los test es verificar
+    que siempre estemos devolviendo solo los números mayores de 5, independientemente de lo que le pasemos a la función.
+    No importa si le pasamos un string, números menores a 5, booleans, o pepito, que siempre nuestra función nos va a dar
+    SOLAMENTE los números mayores a 5. Los test entonces nos sirven para "verificar" o "testear (como indica la palabra) el
+    comportamiento de nuestro código, y que haga lo que nosotros queremos.
+
+   ¿BUENO, Y ENTONCES, COMO USO ESTOS "TEST"? ¿COMO HAGO PARA VER SI EL CODIGO QUE HICE FUNCIONA?
+
+   -Primer paso antes que nada, tenemos que decirle a nuestra computadora que vamos a usar los test, para esto,
+    nos paramos en la carpeta ráiz de nuestro proyecto, abrimos una términal (consola) y ejecutamos el comando 
+    "npm install". Con esto, ya nuestro entorno tiene conocimiento de estos test.
+
+    -Segundo paso, tenemos que correr el comando "npm test", esto, si no escribimos código todavía o el ejercicio no está bien
+    resuelto, nos tiene que aparecer en rojo. Si el ejercicio lo resolvimos bien, nos va a aparecer en verde.
+
+    UALÁ!
